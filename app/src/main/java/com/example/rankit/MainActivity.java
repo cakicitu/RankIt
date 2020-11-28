@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     Button mRegister, mLogin;
     CheckBox mStayChecked;
 
+    //TESTESTEST
+
     private void checkSharedPreferences(){ // CHeck shared preferneces and set them accordingly
         String checkbox = mPreferences.getString(getString(R.string.checkbox), "False");
         String username = mPreferences.getString(getString(R.string.username), "");
