@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/btnMOVIES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Movies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTVSHOWS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TV-SHOWS"
+        app:layout_constraintEnd_toEndOf="@+id/btnMOVIES"
+        app:layout_constraintStart_toStartOf="@+id/btnMOVIES"
+        app:layout_constraintTop_toBottomOf="@+id/btnMOVIES" />
+
+    <Button
+        android:id="@+id/btnANIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="ANIME"
+        app:layout_constraintEnd_toEndOf="@+id/btnTVSHOWS"
+        app:layout_constraintStart_toStartOf="@+id/btnTVSHOWS"
+        app:layout_constraintTop_toBottomOf="@+id/btnTVSHOWS" />
+
+    <Button
+        android:id="@+id/btnGAMES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="GAMES"
+        app:layout_constraintStart_toStartOf="@+id/btnANIME"
+        app:layout_constraintTop_toBottomOf="@+id/btnANIME" />
+
+    <Button
+        android:id="@+id/btnBOOKS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="BOOKS"
+        app:layout_constraintEnd_toEndOf="@+id/btnGAMES"
+        app:layout_constraintStart_toStartOf="@+id/btnGAMES"
+        app:layout_constraintTop_toBottomOf="@+id/btnGAMES" />
+
+    <Button
+        android:id="@+id/btnMANGA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="MANGA"
+        app:layout_constraintEnd_toEndOf="@+id/btnBOOKS"
+        app:layout_constraintStart_toStartOf="@+id/btnBOOKS"
+        app:layout_constraintTop_toBottomOf="@+id/btnBOOKS" />
+</androidx.constraintlayout.widget.ConstraintLayout>

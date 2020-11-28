@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Rank it</string>
+    <string name="checkbox">com.example.rankit.checkbox</string>
+    <string name="username">com.example.rankit.username</string>
+    <string name="password">com.example.rankit.password</string>
+    <array name="countries">
+        <item>Albania</item>
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Finland</item>
+        <item>Germany</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Norway</item>
+        <item>Turkey</item>
+    </array>
+    <string name="title_activity_movies_menu">MoviesMenu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
