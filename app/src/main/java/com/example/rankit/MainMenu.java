@@ -68,12 +68,12 @@ public class MainMenu extends AppCompatActivity {
     }
 
     private void openBooksMenu() {
-        Intent intent = new Intent(this, MoviesMenu.class);
+        Intent intent = new Intent(this, BooksMenu.class);
         startActivity(intent);
     }
 
     private void openMangaMenu() {
-        Intent intent = new Intent(this, MainMenu.class);
+        Intent intent = new Intent(this, MangaMenu.class);
         startActivity(intent);
     }
 
