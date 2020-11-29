@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/title_home"
+        android:iconTint="@color/my_blue"/>
+
+    <item
+        android:id="@+id/navigation_myLists"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:title="@string/title_home"
+        android:iconTint="@color/my_blue"/>
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/ic_baseline_near_me_24"
+        android:title="@string/title_home"
+        android:iconTint="@color/my_blue"/>
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_outline_search_24"
+        android:title="Search"
+        android:iconTint="@color/my_blue"/>
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="More"
+        android:iconTint="@color/my_blue"/>
+
+
+</menu>

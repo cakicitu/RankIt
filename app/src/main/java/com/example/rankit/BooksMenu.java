@@ -14,6 +14,6 @@ public class BooksMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_books_menu);
-        getWindow().setStatusBarColor(ContextCompat.getColor(BooksMenu.this,R.color.black));
+        getWindow().setStatusBarColor(ContextCompat.getColor(BooksMenu.this,R.color.my_blue));
     }
 }

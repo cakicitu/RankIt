@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Registration.class);
         startActivity(intent);
     }
-    public void openMainMenu(){
-        Intent intent = new Intent(this, MainMenu.class);
+    public void openNavigationMenu(){
+        Intent intent = new Intent(this, NavigationMenu.class);
         startActivity(intent);
     }
 
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
-                openMainMenu();
+                openNavigationMenu();
             }
         }); //SharedPreferences speichern beim Login
 

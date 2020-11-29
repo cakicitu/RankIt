@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="Movies"
+        app:backgroundTint="@color/my_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="TV-SHOWS"
+        app:backgroundTint="@color/my_blue"
         app:layout_constraintEnd_toEndOf="@+id/btnMOVIES"
         app:layout_constraintStart_toStartOf="@+id/btnMOVIES"
         app:layout_constraintTop_toBottomOf="@+id/btnMOVIES" />
@@ -34,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="ANIME"
+        app:backgroundTint="@color/my_blue"
         app:layout_constraintEnd_toEndOf="@+id/btnTVSHOWS"
         app:layout_constraintStart_toStartOf="@+id/btnTVSHOWS"
         app:layout_constraintTop_toBottomOf="@+id/btnTVSHOWS" />
@@ -44,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="GAMES"
+        app:backgroundTint="@color/my_blue"
         app:layout_constraintStart_toStartOf="@+id/btnANIME"
         app:layout_constraintTop_toBottomOf="@+id/btnANIME" />
 
@@ -53,6 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="BOOKS"
+        app:backgroundTint="@color/my_blue"
         app:layout_constraintEnd_toEndOf="@+id/btnGAMES"
         app:layout_constraintStart_toStartOf="@+id/btnGAMES"
         app:layout_constraintTop_toBottomOf="@+id/btnGAMES" />
@@ -63,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="MANGA"
+        app:backgroundTint="@color/my_blue"
         app:layout_constraintEnd_toEndOf="@+id/btnBOOKS"
         app:layout_constraintStart_toStartOf="@+id/btnBOOKS"
         app:layout_constraintTop_toBottomOf="@+id/btnBOOKS" />
